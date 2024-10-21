@@ -1,0 +1,35 @@
+Pattern 1:
+Process 0 (140627034850880) beginning... sleeping for 6 seconds
+Process 3 (140627009672768) beginning... sleeping for 1 seconds
+Process 4 (140627001280064) beginning... sleeping for 7 seconds
+Process 2 (140627018065472) beginning... sleeping for 4 seconds
+Process 1 (140627026458176) beginning... sleeping for 8 seconds
+Process 3 (140627009672768) exiting  
+Process 2 (140627018065472) exiting  
+Process 0 (140627034850880) exiting  
+Process 4 (140627001280064) exiting  
+Process 1 (140627026458176) exiting  
+
+Pattern 2:
+Process 0 (140333972776512): starting
+Process 0 (140333972776512), sleeping 8 seconds after creating process 1 (140333895644736)
+Process 1 (140333895644736): starting
+Process 1 (140333895644736), sleeping 8 seconds after creating process 2 (140333887252032)
+Process 2 (140333887252032): starting
+Process 2 (140333887252032), sleeping 8 seconds after creating process 3 (140333878859328)
+Process 3 (140333878859328): starting
+Process 3 (140333878859328), sleeping 8 seconds after creating process 4 (140333870466624)
+Process 4 (140333870466624): starting
+Process 4 (140333870466624) [no process created], sleeping 8 seconds
+Child 0 (140333972776512), waiting for child 1 (140333895644736) to finish
+Child 1 (140333895644736), waiting for child 2 (140333887252032) to finish
+Child 2 (140333887252032), waiting for child 3 (140333878859328) to finish
+Child 3 (140333878859328), waiting for child 4 (140333870466624) to finish
+Process 4 (140333870466624) exiting.
+Process 3 (140333878859328) exiting.
+Process 2 (140333887252032) exiting.
+Process 1 (140333895644736) exiting.
+Process 0 (140333972776512) exiting.
+Parent: process 0 (140333972776512) has exited
+
+Pattern 3:
